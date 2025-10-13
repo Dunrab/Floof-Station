@@ -14353,7 +14353,7 @@ entities:
       pos: -36.5,-11.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -24953.104
+      secondsUntilStateChange: -25319.754
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -82209,7 +82209,7 @@ entities:
       pos: -68.5,-34.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -13182.982
+      secondsUntilStateChange: -13549.634
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -136130,6 +136130,18 @@ entities:
     - type: Transform
       pos: -47.5,-46.5
       parent: 2
+  - uid: 17992
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -30.5,-12.5
+      parent: 2
+  - uid: 18007
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -34.5,-12.5
+      parent: 2
 - proto: SpawnPointLawyer
   entities:
   - uid: 22957
@@ -137360,6 +137372,36 @@ entities:
     - type: Transform
       pos: 5.5,23.5
       parent: 2
+- proto: SurveillanceCameraAssembly
+  entities:
+  - uid: 18044
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -81.5,-30.5
+      parent: 2
+  - uid: 18102
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -69.5,-24.5
+      parent: 2
+  - uid: 18115
+    components:
+    - type: Transform
+      pos: -70.5,-35.5
+      parent: 2
+  - uid: 18125
+    components:
+    - type: Transform
+      pos: -59.5,-35.5
+      parent: 2
+  - uid: 18140
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -48.5,-41.5
+      parent: 2
 - proto: SurveillanceCameraCommand
   entities:
   - uid: 17978
@@ -137461,17 +137503,6 @@ entities:
       - SurveillanceCameraCommand
       nameSet: True
       id: East bridge
-  - uid: 17987
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 44.5,-27.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraCommand
-      nameSet: True
-      id: Captain's room
   - uid: 17988
     components:
     - type: Transform
@@ -137515,17 +137546,6 @@ entities:
       - SurveillanceCameraCommand
       nameSet: True
       id: Head of Personel's office
-  - uid: 17992
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 35.5,-25.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraCommand
-      nameSet: True
-      id: Head of Personel's room
   - uid: 17993
     components:
     - type: Transform
@@ -137680,17 +137700,6 @@ entities:
       - SurveillanceCameraEngineering
       nameSet: True
       id: Front desk
-  - uid: 18007
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 0.5,-25.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraEngineering
-      nameSet: True
-      id: Chief Engineer's office
   - uid: 18008
     components:
     - type: Transform
@@ -137994,28 +138003,6 @@ entities:
       - SurveillanceCameraGeneral
       nameSet: True
       id: Engineering front
-  - uid: 18043
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -36.5,-8.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraGeneral
-      nameSet: True
-      id: Dorm room 3
-  - uid: 18044
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -27.5,-8.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraGeneral
-      nameSet: True
-      id: Dorm room 1
   - uid: 18045
     components:
     - type: Transform
@@ -138550,17 +138537,6 @@ entities:
       - SurveillanceCameraMedical
       nameSet: True
       id: Paramedic's office
-  - uid: 18102
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 55.5,12.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraMedical
-      nameSet: True
-      id: Chief Medical Officer's office
   - uid: 18103
     components:
     - type: Transform
@@ -138658,17 +138634,6 @@ entities:
       - SurveillanceCameraScience
       nameSet: True
       id: Robotics
-  - uid: 18115
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 71.5,-26.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraScience
-      nameSet: True
-      id: Server room
   - uid: 18116
     components:
     - type: Transform
@@ -138769,17 +138734,6 @@ entities:
       - SurveillanceCameraSecurity
       nameSet: True
       id: Officer supply room
-  - uid: 18125
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -13.5,34.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraSecurity
-      nameSet: True
-      id: Head of Security's office
   - uid: 18126
     components:
     - type: Transform
@@ -138913,16 +138867,18 @@ entities:
       id: Detective's office
 - proto: SurveillanceCameraService
   entities:
-  - uid: 18140
+  - uid: 17987
     components:
     - type: Transform
-      pos: -16.5,5.5
+      rot: 1.5707963267948966 rad
+      pos: -43.5,-15.5
       parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraService
-      nameSet: True
-      id: Barkeep room
+  - uid: 18043
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -35.5,7.5
+      parent: 2
   - uid: 18141
     components:
     - type: Transform
@@ -138934,37 +138890,6 @@ entities:
       - SurveillanceCameraService
       nameSet: True
       id: Bar
-  - uid: 18143
-    components:
-    - type: Transform
-      pos: -37.5,-20.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraService
-      nameSet: True
-      id: Musician room
-  - uid: 18144
-    components:
-    - type: Transform
-      pos: -32.5,-20.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraService
-      nameSet: True
-      id: Mime room
-  - uid: 18145
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -29.5,-18.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraService
-      nameSet: True
-      id: Clown room
   - uid: 18147
     components:
     - type: Transform
@@ -138976,17 +138901,6 @@ entities:
       - SurveillanceCameraService
       nameSet: True
       id: Game room
-  - uid: 18148
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -16.5,-9.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraService
-      nameSet: True
-      id: Librarian's office
   - uid: 18149
     components:
     - type: Transform
@@ -139161,17 +139075,6 @@ entities:
       - SurveillanceCameraSupply
       nameSet: True
       id: Secure storage
-  - uid: 18167
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 35.5,15.5
-      parent: 2
-    - type: SurveillanceCamera
-      setupAvailableNetworks:
-      - SurveillanceCameraSupply
-      nameSet: True
-      id: Quartermaster's office
   - uid: 18168
     components:
     - type: Transform
