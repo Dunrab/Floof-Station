@@ -26,6 +26,6 @@
         amount: 2
       steps:
       - tool: Prying
-        doAfter: 3
+        doAfter: 2
       - tool: Screwing
         doAfter: 2
