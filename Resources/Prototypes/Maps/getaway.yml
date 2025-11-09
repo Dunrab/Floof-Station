@@ -11,7 +11,7 @@
       - type: StationEmergencyShuttle #floofstation
         emergencyShuttlePath: /Maps/Shuttles/DeltaV/NTES_Delta.yml #floofstation
       - type: StationCargoShuttle
-        path: /Maps/Floof/Shuttles/cargo_fland.yml
+        path: /Maps/Floof/Shuttles/cargo_getaway.yml
       - type: StationNameSetup
         mapNameTemplate: '{0} Getaway Station {1}'
         nameGenerator:
