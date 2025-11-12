@@ -9,7 +9,7 @@
       stationProto: StandardNanotrasenStation
       components:
       - type: StationEmergencyShuttle #floofstation
-        emergencyShuttlePath: /Maps/Shuttles/DeltaV/NTES_Delta.yml #floofstation
+        emergencyShuttlePath: /Maps/Floof/Shuttles/evac_getaway.yml #floofstation
       - type: StationCargoShuttle
         path: /Maps/Floof/Shuttles/cargo_getaway.yml
       - type: StationNameSetup
@@ -36,7 +36,7 @@
           Clown: [ 1, 1 ]
           Reporter: [ 2, 2 ]
           Musician: [ 2, 2 ]
-          ServiceWorker: [ 6, 8] # high service worker count due to the extra kitchens, bars and ice cream bars
+          ServiceWorker: [ 6, 8] # high service worker count due to the extra kitchens, bars and ice cream bar
           Janitor: [ 2, 2 ]
           Mime: [ 1, 1]
           # Engineering
