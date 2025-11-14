@@ -85,7 +85,7 @@
           SalvageSpecialist: [ 4, 5 ]
           CargoTechnician: [ 3, 4 ]
           # Silicon
-          Borg: [ 2, 3 ]
-          #ServiceQuadBorg: [ 2, 3 ] #Floof - uncomment once this branch gets updated
-          #MedicalQuadBorg: [ 2, 3 ] #Floof - uncomment once this branch gets updated
           # StationAi: [ 1, 1 ] #Floof - uncomment when we want enabled
+          Borg: [ 2, 3 ]
+          ServiceQuadBorg: [ 2, 3 ] #Floof - uncomment once this branch gets updated
+          MedicalQuadBorg: [ 2, 3 ] #Floof - uncomment once this branch gets updated
