@@ -128,6 +128,8 @@ entities:
         colorHex: '#02020b'
       - time: 1
         colorHex: '#000000'
+    - type: WeatherCycle
+      prototype: Tropical
     - type: Map
       mapPaused: True
     - type: PhysicsMap
