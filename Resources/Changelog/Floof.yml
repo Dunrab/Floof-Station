@@ -8487,3 +8487,72 @@ Entries:
   id: 907
   time: '2025-11-14T11:51:58.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1530
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added 15 new plushies of various goobers that call this sector home
+  id: 908
+  time: '2025-11-15T17:58:59.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1500
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: IPC are a little more resistant to being air fried.
+  id: 909
+  time: '2025-11-15T18:00:15.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1498
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: A magician never reveals their secrets.
+    - type: Tweak
+      message: Magician's tophat has a little more space, fits atleast 1 Andy Stall.
+  id: 910
+  time: '2025-11-15T18:03:26.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1493
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Changes Gun Storage Sizes
+  id: 911
+  time: '2025-11-15T18:05:17.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1470
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Ported the weather cycle system from Vulpstation. Glacier, Asterisk, and
+        Train will now have a varying weather cycle: sometimes it will be warm,
+        sometimes cold, sometimes it will rain, and more.
+    - type: Fix
+      message: >-
+        Weather occlusion is now correctly calculated: standing outdoors will
+        make weather sounds louder, standing indoors will make them quieter.
+  id: 912
+  time: '2025-11-15T18:07:49.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1478
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Loadouts and traits UI has been remade from scratch, fixing an
+        uncountable amount of bugs. This also means that the game will no longer
+        freeze for 5-20 seconds during startup.
+    - type: Fix
+      message: >-
+        If you have multiple conflicting loadouts (e.g. multiple survival boxes
+        for different jobs), only one of them will spawn in (the one that passes
+        the requirements). This means that you no longer have to create separate
+        characters just to have survival boxes on all jobs, etc.
+  id: 913
+  time: '2025-11-15T18:16:46.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1518
+- author: Arbitrated
+  changes:
+    - type: Tweak
+      message: >-
+        Radstation has been updated. The changes include the addition of a fully
+        functional mailing and disposal systems. See PR#1521 for more info.
+  id: 914
+  time: '2025-11-15T19:59:23.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1521
