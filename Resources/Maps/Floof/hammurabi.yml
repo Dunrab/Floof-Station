@@ -15461,7 +15461,7 @@ entities:
           -27,-13:
             0: 57344
             3: 48
-            4: 136
+            5: 136
           -26,-12:
             0: 4095
           -26,-11:
@@ -15470,8 +15470,8 @@ entities:
             0: 61168
           -26,-13:
             0: 61440
-            4: 17
-            5: 204
+            5: 17
+            6: 204
           -25,-13:
             0: 62702
           -40,-1:
@@ -16033,7 +16033,7 @@ entities:
           -28,-17:
             0: 65391
           -28,-15:
-            6: 7
+            4: 7
             3: 1792
           -28,-14:
             3: 7
@@ -16896,8 +16896,8 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
-          - 21.824879
-          - 82.10312
+          - 23.903439
+          - 80.02455
           - 0
           - 0
           - 0
@@ -16911,8 +16911,8 @@ entities:
         - volume: 2500
           temperature: 235
           moles:
-          - 21.824879
-          - 82.10312
+          - 29.818268
+          - 99.82637
           - 0
           - 0
           - 0
@@ -16957,6 +16957,21 @@ entities:
           temperature: 293.15
           moles:
           - 0
+          - 0
+          - 0
+          - 6666.982
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 0
           - 6666.982
           - 0
           - 0
@@ -16975,21 +16990,6 @@ entities:
           - 0
           - 0
           - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 0
-          - 0
-          - 0
-          - 6666.982
           - 0
           - 0
           - 0
@@ -20597,7 +20597,7 @@ entities:
       pos: -102.5,-28.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2031.4974
+      secondsUntilStateChange: -2114.554
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -29286,30 +29286,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -102.5,-87.5
       parent: 2
-- proto: BenchParkRight
-  entities:
-  - uid: 42479
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -47.5,-15.5
-      parent: 2
-  - uid: 42481
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -44.5,-15.5
-      parent: 2
-  - uid: 42483
-    components:
-    - type: Transform
-      pos: -43.5,-10.5
-      parent: 2
-  - uid: 42484
-    components:
-    - type: Transform
-      pos: -46.5,-10.5
-      parent: 2
 - proto: BenchParkLeft
   entities:
   - uid: 42480
@@ -29334,6 +29310,30 @@ entities:
     - type: Transform
       pos: -44.5,-10.5
       parent: 2
+- proto: BenchParkRight
+  entities:
+  - uid: 42479
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -47.5,-15.5
+      parent: 2
+  - uid: 42481
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -44.5,-15.5
+      parent: 2
+  - uid: 42483
+    components:
+    - type: Transform
+      pos: -43.5,-10.5
+      parent: 2
+  - uid: 42484
+    components:
+    - type: Transform
+      pos: -46.5,-10.5
+      parent: 2
 - proto: BenchSofaCorner
   entities:
   - uid: 1623
@@ -29346,47 +29346,6 @@ entities:
     components:
     - type: Transform
       pos: -11.5,33.5
-      parent: 2
-- proto: BenchSofaCorpRight
-  entities:
-  - uid: 1625
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -37.5,-8.5
-      parent: 2
-  - uid: 1626
-    components:
-    - type: Transform
-      pos: -36.5,-3.5
-      parent: 2
-  - uid: 1627
-    components:
-    - type: Transform
-      pos: -36.5,-0.5
-      parent: 2
-  - uid: 1628
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -37.5,-2.5
-      parent: 2
-  - uid: 1629
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -37.5,-5.5
-      parent: 2
-  - uid: 1630
-    components:
-    - type: Transform
-      pos: -36.5,-6.5
-      parent: 2
-  - uid: 1631
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -70.5,17.5
       parent: 2
 - proto: BenchSofaCorpLeft
   entities:
@@ -29429,38 +29388,46 @@ entities:
       rot: 3.141592653589793 rad
       pos: -36.5,-8.5
       parent: 2
-- proto: BenchSofaRight
+- proto: BenchSofaCorpRight
   entities:
-  - uid: 1639
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -11.5,32.5
-      parent: 2
-  - uid: 1640
-    components:
-    - type: Transform
-      pos: -100.5,-25.5
-      parent: 2
-  - uid: 1641
+  - uid: 1625
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: -99.5,-68.5
+      pos: -37.5,-8.5
       parent: 2
-  - uid: 1642
+  - uid: 1626
+    components:
+    - type: Transform
+      pos: -36.5,-3.5
+      parent: 2
+  - uid: 1627
+    components:
+    - type: Transform
+      pos: -36.5,-0.5
+      parent: 2
+  - uid: 1628
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: -120.5,-60.5
+      pos: -37.5,-2.5
       parent: 2
-- proto: BenchSofaMiddle
-  entities:
-  - uid: 1643
+  - uid: 1629
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -37.5,-5.5
+      parent: 2
+  - uid: 1630
+    components:
+    - type: Transform
+      pos: -36.5,-6.5
+      parent: 2
+  - uid: 1631
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: -101.5,-26.5
+      pos: -70.5,17.5
       parent: 2
 - proto: BenchSofaLeft
   entities:
@@ -29486,6 +29453,39 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -119.5,-60.5
+      parent: 2
+- proto: BenchSofaMiddle
+  entities:
+  - uid: 1643
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -101.5,-26.5
+      parent: 2
+- proto: BenchSofaRight
+  entities:
+  - uid: 1639
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -11.5,32.5
+      parent: 2
+  - uid: 1640
+    components:
+    - type: Transform
+      pos: -100.5,-25.5
+      parent: 2
+  - uid: 1641
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -99.5,-68.5
+      parent: 2
+  - uid: 1642
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -120.5,-60.5
       parent: 2
 - proto: BenchSteelLeft
   entities:
@@ -234381,6 +234381,16 @@ entities:
     - type: Transform
       pos: 17.5,19.5
       parent: 2
+  - uid: 42520
+    components:
+    - type: Transform
+      pos: -24.5,-48.5
+      parent: 2
+  - uid: 42521
+    components:
+    - type: Transform
+      pos: -24.5,-49.5
+      parent: 2
 - proto: SpawnPointBotanist
   entities:
   - uid: 35366
@@ -234878,6 +234888,13 @@ entities:
     - type: Transform
       pos: -16.5,33.5
       parent: 2
+- proto: SpawnPointMedicalBorg
+  entities:
+  - uid: 42525
+    components:
+    - type: Transform
+      pos: -73.5,-35.5
+      parent: 2
 - proto: SpawnPointMedicalDoctor
   entities:
   - uid: 35455
@@ -234972,6 +234989,13 @@ entities:
     components:
     - type: Transform
       pos: -66.5,-18.5
+      parent: 2
+- proto: SpawnPointMedicalQuadborg
+  entities:
+  - uid: 42524
+    components:
+    - type: Transform
+      pos: -73.5,-34.5
       parent: 2
 - proto: SpawnPointMime
   entities:
@@ -235539,6 +235563,18 @@ entities:
     components:
     - type: Transform
       pos: -34.5,-50.5
+      parent: 2
+- proto: SpawnPointServiceQuadborg
+  entities:
+  - uid: 42522
+    components:
+    - type: Transform
+      pos: -23.5,-48.5
+      parent: 2
+  - uid: 42523
+    components:
+    - type: Transform
+      pos: -23.5,-49.5
       parent: 2
 - proto: SpawnPointServiceWorker
   entities:

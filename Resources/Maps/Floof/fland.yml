@@ -15610,8 +15610,8 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
-          - 21.824879
-          - 82.10312
+          - 23.903439
+          - 80.02455
           - 0
           - 0
           - 0
@@ -15625,8 +15625,8 @@ entities:
         - volume: 2500
           temperature: 235
           moles:
-          - 21.824879
-          - 82.10312
+          - 29.818268
+          - 99.82637
           - 0
           - 0
           - 0
@@ -17758,7 +17758,7 @@ entities:
       pos: 90.5,-29.5
       parent: 13329
     - type: Door
-      secondsUntilStateChange: -10272.655
+      secondsUntilStateChange: -10645.966
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -19314,7 +19314,7 @@ entities:
       pos: -15.5,-4.5
       parent: 13329
     - type: Door
-      secondsUntilStateChange: -15429.929
+      secondsUntilStateChange: -15803.239
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -20474,20 +20474,8 @@ entities:
     - type: Transform
       pos: -2.5,-25.5
       parent: 13329
-- proto: AirlockResearchDirectorGlassLocked
-  entities:
-  - uid: 15443
-    components:
-    - type: Transform
-      pos: 33.5,-30.5
-      parent: 13329
 - proto: AirlockResearchDirectorLocked
   entities:
-  - uid: 15444
-    components:
-    - type: Transform
-      pos: 36.5,-30.5
-      parent: 13329
   - uid: 15445
     components:
     - type: Transform
@@ -20541,6 +20529,11 @@ entities:
     components:
     - type: Transform
       pos: 31.5,-22.5
+      parent: 13329
+  - uid: 15444
+    components:
+    - type: Transform
+      pos: 33.5,-30.5
       parent: 13329
 - proto: AirlockScienceLocked
   entities:
@@ -20608,6 +20601,11 @@ entities:
     components:
     - type: Transform
       pos: 28.5,-18.5
+      parent: 13329
+  - uid: 15443
+    components:
+    - type: Transform
+      pos: 36.5,-30.5
       parent: 13329
   - uid: 19255
     components:
@@ -27695,6 +27693,16 @@ entities:
     - type: Transform
       pos: 91.5,74.5
       parent: 13329
+  - uid: 36217
+    components:
+    - type: Transform
+      pos: -6.5,25.5
+      parent: 13329
+  - uid: 36218
+    components:
+    - type: Transform
+      pos: -7.5,28.5
+      parent: 13329
 - proto: AtmosFixBlockerMarker
   entities:
   - uid: 3005
@@ -29360,13 +29368,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 38.5,-49.5
       parent: 13329
-- proto: BenchSofaCorpRight
+- proto: BenchSofaCorpLeft
   entities:
-  - uid: 1661
+  - uid: 31748
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 36.5,-48.5
+      rot: -1.5707963267948966 rad
+      pos: 38.5,-48.5
       parent: 13329
 - proto: BenchSofaCorpMiddle
   entities:
@@ -29376,13 +29384,13 @@ entities:
       rot: 3.141592653589793 rad
       pos: 37.5,-49.5
       parent: 13329
-- proto: BenchSofaCorpLeft
+- proto: BenchSofaCorpRight
   entities:
-  - uid: 31748
+  - uid: 1661
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 38.5,-48.5
+      rot: 1.5707963267948966 rad
+      pos: 36.5,-48.5
       parent: 13329
 - proto: BigBox
   entities:
@@ -30134,6 +30142,11 @@ entities:
     components:
     - type: Transform
       pos: 109.5,54.5
+      parent: 13329
+  - uid: 36227
+    components:
+    - type: Transform
+      pos: 5.5,43.5
       parent: 13329
 - proto: BoxBeaker
   entities:
@@ -79320,16 +79333,6 @@ entities:
       parent: 13329
 - proto: CapacitorStockPart
   entities:
-  - uid: 15529
-    components:
-    - type: Transform
-      pos: 56.27567,-20.315125
-      parent: 13329
-  - uid: 15530
-    components:
-    - type: Transform
-      pos: 56.49442,-20.471375
-      parent: 13329
   - uid: 27916
     components:
     - type: Transform
@@ -112343,6 +112346,20 @@ entities:
       parent: 13329
     - type: FaxMachine
       name: Cargo
+  - uid: 15529
+    components:
+    - type: Transform
+      pos: 56.5,-20.5
+      parent: 13329
+    - type: FaxMachine
+      name: Epistemics
+  - uid: 15530
+    components:
+    - type: Transform
+      pos: 51.5,-43.5
+      parent: 13329
+    - type: FaxMachine
+      name: Mystagouge
   - uid: 18553
     components:
     - type: Transform
@@ -171177,6 +171194,11 @@ entities:
     - type: Transform
       pos: 113.5,44.5
       parent: 13329
+  - uid: 36219
+    components:
+    - type: Transform
+      pos: 11.5,49.5
+      parent: 13329
 - proto: PowerCellSmallPrinted
   entities:
   - uid: 15537
@@ -191346,6 +191368,18 @@ entities:
     - type: Transform
       pos: 21.5,-10.5
       parent: 13329
+- proto: SpawnPointMedicalBorg
+  entities:
+  - uid: 36224
+    components:
+    - type: Transform
+      pos: 6.5,44.5
+      parent: 13329
+  - uid: 36226
+    components:
+    - type: Transform
+      pos: 4.5,43.5
+      parent: 13329
 - proto: SpawnPointMedicalDoctor
   entities:
   - uid: 18957
@@ -191399,6 +191433,18 @@ entities:
     components:
     - type: Transform
       pos: 7.5,65.5
+      parent: 13329
+- proto: SpawnPointMedicalQuadborg
+  entities:
+  - uid: 36223
+    components:
+    - type: Transform
+      pos: 4.5,44.5
+      parent: 13329
+  - uid: 36225
+    components:
+    - type: Transform
+      pos: 5.5,44.5
       parent: 13329
 - proto: SpawnPointMime
   entities:
@@ -191736,6 +191782,18 @@ entities:
     components:
     - type: Transform
       pos: 30.5,-47.5
+      parent: 13329
+- proto: SpawnPointServiceQuadborg
+  entities:
+  - uid: 36221
+    components:
+    - type: Transform
+      pos: 33.5,-21.5
+      parent: 13329
+  - uid: 36222
+    components:
+    - type: Transform
+      pos: 37.5,-21.5
       parent: 13329
 - proto: SpawnPointServiceWorker
   entities:
@@ -226276,6 +226334,11 @@ entities:
     components:
     - type: Transform
       pos: 61.5,45.5
+      parent: 13329
+  - uid: 36220
+    components:
+    - type: Transform
+      pos: 21.5,55.5
       parent: 13329
 - proto: WeaponDisabler
   entities:

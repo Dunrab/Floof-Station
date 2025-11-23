@@ -15203,7 +15203,7 @@ entities:
       pos: -20.5,-15.5
       parent: 6747
     - type: Door
-      secondsUntilStateChange: -198549.89
+      secondsUntilStateChange: -198854.06
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -62591,6 +62591,29 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -71.5,-12.5
       parent: 6747
+  - uid: 30241
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -2.5,-42.5
+      parent: 6747
+  - uid: 30243
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -1.5,-41.5
+      parent: 6747
+  - uid: 30244
+    components:
+    - type: Transform
+      pos: -2.5,-46.5
+      parent: 6747
+  - uid: 30245
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -1.5,-47.5
+      parent: 6747
 - proto: ChairBarber
   entities:
   - uid: 13880
@@ -68757,7 +68780,7 @@ entities:
       pos: 26.5,-70.5
       parent: 6747
     - type: Door
-      secondsUntilStateChange: -116850.83
+      secondsUntilStateChange: -117155.01
       state: Closing
 - proto: d4Dice
   entities:
@@ -135285,7 +135308,7 @@ entities:
       pos: 39.5,-36.5
       parent: 6747
     - type: Door
-      secondsUntilStateChange: -114754.48
+      secondsUntilStateChange: -115058.66
       state: Opening
 - proto: MetempsychoticMachine
   entities:
@@ -165752,6 +165775,13 @@ entities:
     - type: Transform
       pos: 17.5,24.5
       parent: 6747
+- proto: SpawnPointMedicalBorg
+  entities:
+  - uid: 30236
+    components:
+    - type: Transform
+      pos: 23.5,-25.5
+      parent: 6747
 - proto: SpawnPointMedicalDoctor
   entities:
   - uid: 5664
@@ -165820,6 +165850,13 @@ entities:
     components:
     - type: Transform
       pos: 26.5,-26.5
+      parent: 6747
+- proto: SpawnPointMedicalQuadborg
+  entities:
+  - uid: 30237
+    components:
+    - type: Transform
+      pos: 23.5,-26.5
       parent: 6747
 - proto: SpawnPointMime
   entities:
@@ -166209,6 +166246,18 @@ entities:
     components:
     - type: Transform
       pos: 19.5,-57.5
+      parent: 6747
+- proto: SpawnPointServiceQuadborg
+  entities:
+  - uid: 30238
+    components:
+    - type: Transform
+      pos: 19.5,-46.5
+      parent: 6747
+  - uid: 30239
+    components:
+    - type: Transform
+      pos: 19.5,-47.5
       parent: 6747
 - proto: SpawnPointServiceWorker
   entities:
@@ -169945,6 +169994,16 @@ entities:
     components:
     - type: Transform
       pos: 36.5,-39.5
+      parent: 6747
+  - uid: 30240
+    components:
+    - type: Transform
+      pos: -2.5,-41.5
+      parent: 6747
+  - uid: 30242
+    components:
+    - type: Transform
+      pos: -2.5,-47.5
       parent: 6747
 - proto: TablePlasmaGlass
   entities:
@@ -190472,7 +190531,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -43020.977
+      secondsUntilStateChange: -43325.152
       state: Opening
   - uid: 3684
     components:
@@ -190484,7 +190543,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -43023.81
+      secondsUntilStateChange: -43327.984
       state: Opening
   - uid: 17483
     components:
@@ -190496,7 +190555,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -43038.176
+      secondsUntilStateChange: -43342.35
       state: Opening
   - uid: 17496
     components:
