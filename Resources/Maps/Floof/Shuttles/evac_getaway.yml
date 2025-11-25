@@ -21,8 +21,8 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      desc: NT Evac Cube
-      name: NT Evac Cube
+      desc: FL Evac Cube
+      name: FL Evac Cube
     - type: Transform
       pos: -0.8703276,-13.529752
       parent: invalid
