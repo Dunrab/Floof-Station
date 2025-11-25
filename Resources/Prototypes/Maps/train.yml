@@ -14,7 +14,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'ED'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/DeltaV/NTES_Delta.yml #floofstation
+          emergencyShuttlePath: /Maps/Floof/Shuttles/evac_train.yml #floofstation
         - type: StationJobs
           overflowJobs:
             - Passenger
