@@ -115392,7 +115392,7 @@ entities:
     - type: Transform
       pos: -10.5,-8.5
       parent: 2
-- proto: LockerBoozeFilled
+- proto: LockerBartenderFilled
   entities:
   - uid: 13803
     components:
