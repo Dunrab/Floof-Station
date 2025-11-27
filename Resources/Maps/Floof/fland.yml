@@ -17758,7 +17758,7 @@ entities:
       pos: 90.5,-29.5
       parent: 13329
     - type: Door
-      secondsUntilStateChange: -10645.966
+      secondsUntilStateChange: -10962.3
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -19314,7 +19314,7 @@ entities:
       pos: -15.5,-4.5
       parent: 13329
     - type: Door
-      secondsUntilStateChange: -15803.239
+      secondsUntilStateChange: -16119.573
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -29246,6 +29246,31 @@ entities:
     - type: Transform
       pos: 66.5,-51.5
       parent: 13329
+  - uid: 36233
+    components:
+    - type: Transform
+      pos: 15.5,50.5
+      parent: 13329
+  - uid: 36234
+    components:
+    - type: Transform
+      pos: 14.5,51.5
+      parent: 13329
+  - uid: 36235
+    components:
+    - type: Transform
+      pos: 11.5,47.5
+      parent: 13329
+  - uid: 36236
+    components:
+    - type: Transform
+      pos: 9.5,47.5
+      parent: 13329
+  - uid: 36237
+    components:
+    - type: Transform
+      pos: 9.5,50.5
+      parent: 13329
 - proto: BedsheetPurple
   entities:
   - uid: 34638
@@ -30252,11 +30277,6 @@ entities:
       parent: 13329
 - proto: BoxFolderBlack
   entities:
-  - uid: 52
-    components:
-    - type: Transform
-      pos: -9.123006,2.5807915
-      parent: 13329
   - uid: 18965
     components:
     - type: Transform
@@ -30271,6 +30291,12 @@ entities:
     components:
     - type: Transform
       pos: -27.533854,2.561223
+      parent: 13329
+  - uid: 36229
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -8.6630945,1.9621422
       parent: 13329
 - proto: BoxFolderBlue
   entities:
@@ -30329,10 +30355,11 @@ entities:
       parent: 13329
 - proto: BoxFolderGreen
   entities:
-  - uid: 26701
+  - uid: 36228
     components:
     - type: Transform
-      pos: -9.123006,2.5182915
+      rot: -1.5707963267948966 rad
+      pos: -8.308639,2.0417693
       parent: 13329
 - proto: BoxFolderGrey
   entities:
@@ -79319,10 +79346,11 @@ entities:
       parent: 13329
 - proto: CandyBowl
   entities:
-  - uid: 26508
+  - uid: 36240
     components:
     - type: Transform
-      pos: 17.549417,38.65425
+      rot: -1.5707963267948966 rad
+      pos: 16.509197,37.580124
       parent: 13329
 - proto: CannabisSeeds
   entities:
@@ -91504,6 +91532,11 @@ entities:
       parent: 13329
 - proto: ChemistryHotplate
   entities:
+  - uid: 2243
+    components:
+    - type: Transform
+      pos: 17.5,38.5
+      parent: 13329
   - uid: 18362
     components:
     - type: Transform
@@ -95329,6 +95362,13 @@ entities:
     - type: Transform
       pos: 76.55065,10.666498
       parent: 13329
+- proto: ClothingBackpackDuffelSurgeryFilled
+  entities:
+  - uid: 55
+    components:
+    - type: Transform
+      pos: 8.517409,56.65141
+      parent: 13329
 - proto: ClothingBackpackSatchelLeather
   entities:
   - uid: 6580
@@ -95381,6 +95421,11 @@ entities:
     components:
     - type: Transform
       pos: 17.46724,68.57425
+      parent: 13329
+  - uid: 36238
+    components:
+    - type: Transform
+      pos: 2.5,44.5
       parent: 13329
 - proto: ClothingBeltSecurityFilled
   entities:
@@ -96228,6 +96273,11 @@ entities:
     - type: Transform
       pos: -1.4137464,49.175823
       parent: 13329
+  - uid: 13323
+    components:
+    - type: Transform
+      pos: 8.530592,55.67573
+      parent: 13329
   - uid: 18484
     components:
     - type: Transform
@@ -96247,6 +96297,11 @@ entities:
     components:
     - type: Transform
       pos: -40.619015,61.518986
+      parent: 13329
+  - uid: 36230
+    components:
+    - type: Transform
+      pos: 8.343092,55.86336
       parent: 13329
 - proto: ClothingMaskClown
   entities:
@@ -96891,13 +96946,6 @@ entities:
     components:
     - type: Transform
       pos: 78.61583,-18.435736
-      parent: 13329
-- proto: ClothingUniformJumpsuitJournalist
-  entities:
-  - uid: 2243
-    components:
-    - type: Transform
-      pos: -9.469791,2.582446
       parent: 13329
 - proto: ClothingUniformJumpsuitLawyerBlack
   entities:
@@ -163683,6 +163731,11 @@ entities:
     - type: Transform
       pos: 60.519222,-3.4111028
       parent: 13329
+  - uid: 36239
+    components:
+    - type: Transform
+      pos: 2.5,43.5
+      parent: 13329
 - proto: HandLabeler
   entities:
   - uid: 1425
@@ -167600,6 +167653,16 @@ entities:
     - type: Transform
       pos: 15.5,55.5
       parent: 13329
+  - uid: 36231
+    components:
+    - type: Transform
+      pos: 11.5,47.5
+      parent: 13329
+  - uid: 36232
+    components:
+    - type: Transform
+      pos: 14.5,51.5
+      parent: 13329
 - proto: MedicalScanner
   entities:
   - uid: 18729
@@ -168553,6 +168616,11 @@ entities:
     components:
     - type: Transform
       pos: -1.4184046,48.56645
+      parent: 13329
+  - uid: 26508
+    components:
+    - type: Transform
+      pos: 9.417409,56.61388
       parent: 13329
   - uid: 31659
     components:
@@ -199392,11 +199460,6 @@ entities:
       parent: 13329
 - proto: TableWood
   entities:
-  - uid: 55
-    components:
-    - type: Transform
-      pos: -9.5,2.5
-      parent: 13329
   - uid: 213
     components:
     - type: Transform
@@ -202250,6 +202313,13 @@ entities:
     components:
     - type: Transform
       pos: -3.5,37.5
+      parent: 13329
+- proto: VendingMachineRepDrobe
+  entities:
+  - uid: 52
+    components:
+    - type: Transform
+      pos: -9.5,2.5
       parent: 13329
 - proto: VendingMachineRoboDrobe
   entities:
@@ -226701,6 +226771,12 @@ entities:
     - type: Transform
       pos: 62.5,41.5
       parent: 13329
+  - uid: 26701
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 16.5,37.5
+      parent: 13329
   - uid: 29284
     components:
     - type: Transform
@@ -226922,12 +226998,6 @@ entities:
     components:
     - type: Transform
       pos: 22.5,42.5
-      parent: 13329
-  - uid: 13323
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 16.5,37.5
       parent: 13329
   - uid: 13328
     components:
